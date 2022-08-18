@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e95b547fd817a4b92d0432090973c2, type: 3}
+  m_Name: Granite
+  m_EditorClassIdentifier: 
+  name: Granite
+  spaceCost: 3
+  itemPrefab: {fileID: 0}
+  icon: {fileID: 21300000, guid: d1eb07faa4c6a6a46a3a3295f74d49ed, type: 3}
+  description: Granite is used to make rock mixture to build superior items.
+  itemType: 0
+  canEquip: 0
+  isInteractable: 0
+  allowRawInteraction: 0
+  durability: 0
+  damage: 0
+  dph: 0
+  build_SFX: 0
+  buildSFX:
+    clip: {fileID: 0}
+    loop: 0
+    volume: 0
+    pitch: 0
+    is3D: 0
+    minDistance: 0
+    maxDistance: 0

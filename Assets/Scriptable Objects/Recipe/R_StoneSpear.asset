@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752436c7e44a0344db577a72d4d872ce, type: 3}
+  m_Name: R_StoneSpear
+  m_EditorClassIdentifier: 
+  recipeName: Stone Spear
+  inputs:
+  - item: {fileID: 11400000, guid: a5a5101cf9d321f4d934631151e8bb46, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: ceb3f829ec5182647b331477832a3038, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: ef50be056dea45c4096f5c75408da173, type: 2}
+    amount: 1
+  output: {fileID: 11400000, guid: 5ee11dd15626d684ba96fb43104477d6, type: 2}
+  outputAmount: 1

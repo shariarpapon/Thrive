@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03ddb2d12294934c904af1f7ea18b5e, type: 3}
+  m_Name: Large Boulder
+  m_EditorClassIdentifier: 
+  hasRquirement: 1
+  particle: {fileID: 7240170326035633094, guid: ae7b3451fe9edf542841362948c34222,
+    type: 3}
+  dropContainer: {fileID: 8598245929540966026, guid: 29464f28ab4e96048b1d771e2ff173c9,
+    type: 3}
+  requiredType: 6
+  harvestDelay: 0.65
+  start_SFX: 1
+  SFX:
+    clip: {fileID: 8300000, guid: 3b0ca33ccdedb05478b0ded7f151e606, type: 3}
+    loop: 0
+    volume: 0.55
+    pitch: 1
+    is3D: 0
+    minDistance: 0
+    maxDistance: 0
+  end_SFX: 1
+  finalSFX:
+    clip: {fileID: 8300000, guid: 811fcffa4a0d260408cf78e948fa28da, type: 3}
+    loop: 0
+    volume: 0.143
+    pitch: 0.65
+    is3D: 0
+    minDistance: 0
+    maxDistance: 0
+  harvests:
+  - dropItem: {fileID: 11400000, guid: a5a5101cf9d321f4d934631151e8bb46, type: 2}
+    frequency:
+      minAmount: 3
+      maxAmount: 6
+      chance: 1
+  - dropItem: {fileID: 11400000, guid: 0e2fb586392b6804b9f3dbf19becea48, type: 2}
+    frequency:
+      minAmount: 0
+      maxAmount: 4
+      chance: 0.85
+  - dropItem: {fileID: 11400000, guid: 34b9a78619546614c893cd085c2fcd63, type: 2}
+    frequency:
+      minAmount: 1
+      maxAmount: 4
+      chance: 0.9
+  - dropItem: {fileID: 11400000, guid: 5b58befed3f939645b9e8c5112bb0b3b, type: 2}
+    frequency:
+      minAmount: 0
+      maxAmount: 1
+      chance: 1

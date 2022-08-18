@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752436c7e44a0344db577a72d4d872ce, type: 3}
+  m_Name: R_BasicFire
+  m_EditorClassIdentifier: 
+  recipeName: Basic Fire
+  inputs:
+  - item: {fileID: 11400000, guid: 2e3d2968dc90e8449ac448da10b812a9, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 4e16f2c1651a6cd4f9ea4dc04a93c8c3, type: 2}
+    amount: 4
+  - item: {fileID: 11400000, guid: a5a5101cf9d321f4d934631151e8bb46, type: 2}
+    amount: 2
+  output: {fileID: 11400000, guid: 3e1e622e6776fb640a06fb0bfacb16dc, type: 2}
+  outputAmount: 1

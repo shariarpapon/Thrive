@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752436c7e44a0344db577a72d4d872ce, type: 3}
+  m_Name: R_HardComposite
+  m_EditorClassIdentifier: 
+  recipeName: Hard Composite
+  inputs:
+  - item: {fileID: 11400000, guid: a5a5101cf9d321f4d934631151e8bb46, type: 2}
+    amount: 4
+  - item: {fileID: 11400000, guid: 0e2fb586392b6804b9f3dbf19becea48, type: 2}
+    amount: 4
+  - item: {fileID: 11400000, guid: 34b9a78619546614c893cd085c2fcd63, type: 2}
+    amount: 4
+  output: {fileID: 11400000, guid: b097db57a7a4d314e9f3cb119d38c107, type: 2}
+  outputAmount: 1
